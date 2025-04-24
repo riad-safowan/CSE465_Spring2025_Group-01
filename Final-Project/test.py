@@ -1,3 +1,25 @@
+"""
+After running this test.py script. you will be prompt like,
+
+Enter the path to the image file: 
+
+here are some sample file paths you can use - 
+sample/happy.jpg
+sample/aug_happy.jpg
+sample/surprise.jpg
+sample/aug_surprise.jpg
+sample/angry.jpg
+sample/aug_angry.jpg
+sample/disgust.jpg
+sample/aug_disgust.jpg
+sample/fear.jpg
+sample/aug_fear.jpg
+sample/neutral.jpg
+sample/aug_neutral.jpg
+sample/sad.jpg
+sample/aug_sad.jpg
+"""
+
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
