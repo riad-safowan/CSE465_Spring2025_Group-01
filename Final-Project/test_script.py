@@ -1,5 +1,5 @@
 """
-After running this test.py script. you will be prompt like,
+After running this test_script.py script. you will be prompt like,
 
 Enter the path to the image file: 
 

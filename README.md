@@ -152,5 +152,40 @@ recognition task, resulting in an effective model for facial expression classifi
 ## Confusion Matrix
 
 ![Confusion Matrix](Final-Project/confusion_matrix.png)
+<br><br><br>
+Command to run the test script: 
+
+Ex: Google Colab <br>
+```
+!git clone https://github.com/riad-safowan/CSE465_Spring2025_Group-01.git
+%cd CSE465_Spring2025_Group-01/Final-Project
+```
+
+```
+import test_script
+
+image_path = "sample/happy.jpg"
+emotion, confidence = test_script.predict_emotion(image_path, "model.pt")
+print(f"Predicted emotion: {emotion}")
+print(f"Confidence: {confidence:.4f}")
+
+"""
+here are some sample file paths you can use - 
+sample/happy.jpg
+sample/aug_happy.jpg
+sample/surprise.jpg
+sample/aug_surprise.jpg
+sample/angry.jpg
+sample/aug_angry.jpg
+sample/disgust.jpg
+sample/aug_disgust.jpg
+sample/fear.jpg
+sample/aug_fear.jpg
+sample/neutral.jpg
+sample/aug_neutral.jpg
+sample/sad.jpg
+sample/aug_sad.jpg
+"""
+```
 
 
